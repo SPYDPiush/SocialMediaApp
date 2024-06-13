@@ -1,0 +1,56 @@
+.postform{
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.postform form{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.postform .title,
+.postform .disc,
+.postform .tags{
+  margin-bottom: 15px;
+
+}
+
+
+.postform label{
+  display: block;
+  font-weight: 500;
+  margin-bottom: 14px;
+  color: #333;
+}
+
+.postform input[type="text"], input[type = "textarea"]{
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  outline: unset;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.postform button{
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: #28a745;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.postform button:hover{
+  background-color: #218838;
+}

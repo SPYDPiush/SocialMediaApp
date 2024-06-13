@@ -1,0 +1,86 @@
+.postcard{
+  
+  width: 380px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  margin: 10px 0px;
+  transition: transform 0.3s , box-shadow 0.2s;
+  /* position: relative; */
+}
+
+.postcard:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card_title{
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.card_disc{
+  font-size: 21px;
+  line-height: normal;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.card_tags{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.card_tag{
+  background: rgba(50, 50, 183, 0.133);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  
+}
+
+
+
+
+
+/* without using display none the delete icon diable and when hover the card body show , when i comment the translateY in card:hover property the delete button disable but i dont understand this happening */
+.deleteicon{
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  padding: 10px 20px;
+  background-color: #2dea;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+/* the correct css code for deleteicon if in future the code burst */
+/* important point if below code want to use go on top and uncomment position releative   */
+/* if postion relative on the above code not working */
+
+
+
+/* .deleteicon{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 10px 20px;
+  background-color: #2dea;
+  border-radius: 5px;
+  display: none;
+}
+
+.postcard:hover .deleteicon{
+  display: block;
+} */
+
+
+/* this is the correct code for delete icon */

@@ -1,0 +1,16 @@
+body{
+  box-sizing: border-box;
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  height: 100%;
+}
+
+.exm{
+  height: 90vh;
+}
+
+a{
+  text-decoration: none;
+}
